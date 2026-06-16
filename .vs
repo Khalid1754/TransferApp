@@ -1,1 +1,2 @@
-
+git add .gitignore
+git commit -m "Add .vs to gitignore"
