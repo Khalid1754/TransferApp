@@ -12,7 +12,7 @@ using TransferApp.API.Data;
 namespace TransferApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260621135937_InitialCreate")]
+    [Migration("20260621154549_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -27,9 +27,11 @@ namespace TransferApp.Migrations
 
             modelBuilder.Entity("TransferApp.Models.Club", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Country")
                         .IsRequired()
@@ -59,9 +61,11 @@ namespace TransferApp.Migrations
 
             modelBuilder.Entity("TransferApp.Models.Player", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -97,9 +101,11 @@ namespace TransferApp.Migrations
 
             modelBuilder.Entity("TransferApp.Models.TransferListing", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<decimal>("AskingPrice")
                         .HasColumnType("decimal(18,2)");
@@ -110,11 +116,11 @@ namespace TransferApp.Migrations
                     b.Property<DateTime>("ListedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("ListedByClubId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("ListedByClubId")
+                        .HasColumnType("int");
 
-                    b.Property<Guid>("PlayerId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("PlayerId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -131,12 +137,14 @@ namespace TransferApp.Migrations
 
             modelBuilder.Entity("TransferApp.Models.User", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
 
-                    b.Property<Guid>("ClubId")
-                        .HasColumnType("uniqueidentifier");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClubId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");

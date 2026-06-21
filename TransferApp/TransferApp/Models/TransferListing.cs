@@ -12,12 +12,12 @@ namespace TransferApp.Models
 
     public class TransferListing
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public int Id { get; set; }
 
-        public Guid PlayerId { get; set; }
+        public int PlayerId { get; set; }
         public Player? Player { get; set; }
 
-        public Guid ListedByClubId { get; set; }
+        public int ListedByClubId { get; set; }
         public Club? ListedByClub { get; set; }
 
         public decimal AskingPrice { get; set; }

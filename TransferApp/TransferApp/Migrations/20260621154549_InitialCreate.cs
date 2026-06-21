@@ -15,7 +15,8 @@ namespace TransferApp.Migrations
                 name: "Clubs",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Country = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     League = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
@@ -31,7 +32,8 @@ namespace TransferApp.Migrations
                 name: "Players",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Position = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Age = table.Column<int>(type: "int", nullable: false),
@@ -49,8 +51,9 @@ namespace TransferApp.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ClubId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ClubId = table.Column<int>(type: "int", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -71,9 +74,10 @@ namespace TransferApp.Migrations
                 name: "TransferListings",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    PlayerId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ListedByClubId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PlayerId = table.Column<int>(type: "int", nullable: false),
+                    ListedByClubId = table.Column<int>(type: "int", nullable: false),
                     AskingPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ListedAt = table.Column<DateTime>(type: "datetime2", nullable: false),

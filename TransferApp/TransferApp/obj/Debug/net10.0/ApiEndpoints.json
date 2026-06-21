@@ -1,5 +1,77 @@
 [
   {
+    "ContainingType": "TransferApp.API.Controllers.ClubsController",
+    "Method": "GetClubs",
+    "RelativePath": "api/Clubs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TransferApp.API.DTOs.ClubDto, TransferApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.ClubsController",
+    "Method": "CreateClub",
+    "RelativePath": "api/Clubs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransferApp.API.DTOs.CreateClubDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransferApp.API.DTOs.ClubDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.ClubsController",
+    "Method": "GetClub",
+    "RelativePath": "api/Clubs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransferApp.API.DTOs.ClubDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "TransferApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

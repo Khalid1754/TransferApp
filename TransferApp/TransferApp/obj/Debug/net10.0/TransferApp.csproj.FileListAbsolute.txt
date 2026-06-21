@@ -159,3 +159,6 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\TransferApp.pdb
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\TransferApp.genruntimeconfig.cache
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\ref\TransferApp.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
