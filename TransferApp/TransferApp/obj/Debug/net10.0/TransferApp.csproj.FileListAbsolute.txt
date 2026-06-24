@@ -8,6 +8,7 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\TransferApp.pdb
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Humanizer.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
@@ -40,6 +41,12 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Scrutor.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -159,10 +166,3 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\TransferApp.pdb
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\TransferApp.genruntimeconfig.cache
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\obj\Debug\net10.0\ref\TransferApp.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Scrutor.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
