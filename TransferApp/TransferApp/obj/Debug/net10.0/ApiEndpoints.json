@@ -124,6 +124,160 @@
     ]
   },
   {
+    "ContainingType": "TransferApp.API.Controllers.PlayersController",
+    "Method": "GetPlayers",
+    "RelativePath": "api/Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TransferApp.API.DTOs.PlayerDto, TransferApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.PlayersController",
+    "Method": "CreatePlayer",
+    "RelativePath": "api/Players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransferApp.API.DTOs.CreatePlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransferApp.API.DTOs.PlayerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.PlayersController",
+    "Method": "GetPlayer",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransferApp.API.DTOs.PlayerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.TransferListingsController",
+    "Method": "GetListings",
+    "RelativePath": "api/TransferListings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TransferApp.API.DTOs.TransferListingDto, TransferApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.TransferListingsController",
+    "Method": "CreateListing",
+    "RelativePath": "api/TransferListings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransferApp.API.DTOs.CreateTransferListingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransferApp.API.DTOs.TransferListingDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.TransferListingsController",
+    "Method": "WithdrawListing",
+    "RelativePath": "api/TransferListings/{id}/withdraw",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransferApp.API.Controllers.TransferListingsController",
+    "Method": "GetMyClubListings",
+    "RelativePath": "api/TransferListings/myclub",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TransferApp.API.DTOs.TransferListingDto, TransferApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "TransferApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
