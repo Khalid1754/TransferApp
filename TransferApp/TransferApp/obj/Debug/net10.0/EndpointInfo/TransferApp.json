@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.4",
+  "openapi": "3.0.1",
   "info": {
     "title": "TransferApp",
     "version": "1.0"
@@ -305,17 +305,8 @@
                 }
               }
             }
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "403": {
-            "description": "Forbidden"
           }
-        },
-        "security": [
-          { }
-        ]
+        }
       }
     },
     "/api/Players/{id}": {
@@ -438,17 +429,8 @@
                 }
               }
             }
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "403": {
-            "description": "Forbidden"
           }
-        },
-        "security": [
-          { }
-        ]
+        }
       }
     },
     "/api/TransferListings/myclub": {
@@ -485,17 +467,8 @@
                 }
               }
             }
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "403": {
-            "description": "Forbidden"
           }
-        },
-        "security": [
-          { }
-        ]
+        }
       }
     },
     "/api/TransferListings/{id}/withdraw": {
@@ -517,17 +490,8 @@
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "403": {
-            "description": "Forbidden"
           }
-        },
-        "security": [
-          { }
-        ]
+        }
       }
     },
     "/WeatherForecast": {
@@ -849,21 +813,9 @@
       }
     }
   },
-  "tags": [
+  "security": [
     {
-      "name": "Auth"
-    },
-    {
-      "name": "Clubs"
-    },
-    {
-      "name": "Players"
-    },
-    {
-      "name": "TransferListings"
-    },
-    {
-      "name": "WeatherForecast"
+      "Bearer": [ ]
     }
   ]
 }

@@ -11,7 +11,6 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Humanizer.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -41,9 +40,6 @@ C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Newtonsoft.Json.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Scrutor.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.dll
-C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\khali\OneDrive\Dokument\GitHub\TransferApp\TransferApp\TransferApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
