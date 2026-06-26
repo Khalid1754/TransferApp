@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar'
 import { useEffect, useState } from 'react'
 import { getTransferListings } from '../services/transferListingService'
 
@@ -21,15 +22,7 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-[#0B0E14] text-[#F1F5F9]">
-      <header className="border-b border-[#1E2433] px-8 py-5 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-2.5 h-2.5 rounded-full bg-[#22C55E]" />
-          <span className="font-display font-bold text-lg tracking-tight">TRANSFERHUB</span>
-        </div>
-        <div className="text-sm text-[#94A3B8]">
-          Liverpool FC <span className="text-[#1E2433]">/</span> Owner
-        </div>
-      </header>
+      <Navbar />
 
       <main className="px-8 py-10 max-w-6xl mx-auto">
         <div className="mb-10">
