@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Marketplace from './pages/Marketplace'
+import PlayerProfile from './pages/PlayerProfile'
 
 function ProtectedRoute({ children }) {
   const { user } = useAuth()
@@ -20,6 +21,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/players/:id"
+        element={
+          <ProtectedRoute>
+            <PlayerProfile />
           </ProtectedRoute>
         }
       />

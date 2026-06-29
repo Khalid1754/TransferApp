@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react'
 import { getTransferListings } from '../services/transferListingService'
+import { useNavigate } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 function Marketplace() {
   const [listings, setListings] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const navigate = useNavigate()
 
   const [positionFilter, setPositionFilter] = useState('Alla')
   const [search, setSearch] = useState('')
@@ -29,15 +32,7 @@ function Marketplace() {
 
   return (
     <div className="min-h-screen bg-[#0B0E14] text-[#F1F5F9]">
-      <header className="border-b border-[#1E2433] px-8 py-5 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-2.5 h-2.5 rounded-full bg-[#22C55E]" />
-          <span className="font-display font-bold text-lg tracking-tight">TRANSFERHUB</span>
-        </div>
-        <div className="text-sm text-[#94A3B8]">
-          Liverpool FC <span className="text-[#1E2433]">/</span> Owner
-        </div>
-      </header>
+      <Navbar />
 
       <main className="px-8 py-10 max-w-6xl mx-auto">
         <div className="mb-8">
@@ -100,8 +95,9 @@ function Marketplace() {
             {filteredListings.map((listing) => (
               <div
                 key={listing.id}
+                onClick={() => navigate(`/players/${listing.playerId}`)}
                 className="bg-[#141925] border border-[#1E2433] rounded-lg p-5 hover:border-[#22C55E] transition cursor-pointer group"
-              >
+                >
                 <div className="flex items-start justify-between mb-4">
                   <span className="text-[#94A3B8] text-xs font-mono border border-[#1E2433] rounded px-2 py-1">
                     {listing.playerPosition}
