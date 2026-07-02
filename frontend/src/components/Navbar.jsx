@@ -14,6 +14,7 @@ function Navbar() {
   const links = [
     { to: '/', label: 'Dashboard' },
     { to: '/marketplace', label: 'Transfermarknad' },
+    { to: '/my-listings', label: 'Mina spelare' },
   ]
 
   return (
